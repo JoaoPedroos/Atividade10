@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(73, 11, 130);
+    font-family: Arial;
+}
+
+.header{
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color:rgb(57, 5, 107);
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    background-color: rgb(109, 21, 192);
+    padding: 7px;
+    border-radius: 12px;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: rgb(73, 11, 130);
+}
+
+/* Inicio */
+
+h1, h3{
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: gold;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.box{
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 400px;
+    height: 250px;
+}
+
+.img1{
+    border: 1px solid black;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.img2{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Cardapio */
+
+.containerc{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+    
+}
+
+.box1{
+    background-color:rgba(255, 255, 255, 0.929);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}   
+p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+input{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button{
+    margin-left: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(109, 21, 192);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: rgb(73, 11, 130);
+    cursor: pointer;
+}
+
+/* Novidades */
+
+.novos{
+    border-radius: 10px;
+    padding: 3px;
+    color: gold;
+    background-color: white;
+    text-align: center;
+    width: 145px;
+    margin-left: 330px;
+    margin-top: 40px;
+}
+
+.containern{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding: 10px;
+    
+}
+
+.box3{
+    background-color:rgba(255, 255, 255, 0.929);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}   
+
+/* Sobre */
+
+.containers{       
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 600px;
+
+}
